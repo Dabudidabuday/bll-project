@@ -1,4 +1,4 @@
-import UsersService from "./core/services/users";
+import UsersService from "core/services/users";
 
 class App {
     constructor() {
