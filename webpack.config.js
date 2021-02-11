@@ -76,13 +76,11 @@ module.exports = {
 
     plugins,
 
-    // resolve: {
-        // alias: {
-        //   'images': path.resolve(__dirname, 'src/images'),
-        //   'components': path.resolve(__dirname, 'src/javascript/components'),
-        //   'productComponents': path.resolve(__dirname, 'src/javascript/product'),
-        //     'pages': path.resolve(__dirname, 'src/javascript/pages')
-        // },
+    resolve: {
+        alias: {
+          'core': path.resolve(__dirname, 'src/core'),
+
+        },
         // fallback: {
         //     util: require.resolve("util/"),
         //     path: require.resolve("path-browserify"),
@@ -91,7 +89,7 @@ module.exports = {
         //     https: false,
         //     vm: false 
         // }
-    // },
+    },
 
     mode: devMode ? 'development' : 'production'
 };
