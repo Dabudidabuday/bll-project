@@ -4,7 +4,7 @@ class Entity {
     }
 
     getId() {
-        return this.entity.id || '';
+        return this.entity.id || this.entity._id || '';
     }
 }
 
