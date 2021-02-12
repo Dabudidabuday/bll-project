@@ -8,4 +8,4 @@ class Entity {
     }
 }
 
-export default Entity
+export default Entity;
